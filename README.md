@@ -30,11 +30,9 @@ Sebuah game web sederhana berbasis **PHP, MySQL, CSS, dan JavaScript** dengan ko
    git clone https://github.com/Martin-020/PHP-JavaScript-GameTebakKata.git
 2. Import database:
  - Buka phpMyAdmin
- - Buat database baru, misalnya tebakkata
- - Import file tebakkata.sql
-3. Atur koneksi database di Backend/db.php:
-   ```bash
-   $pdo = new PDO("mysql:host=localhost;dbname=tebakkata", "root", "");
+ - Buat database baru, misalnya tebak_kata_db
+ - Import file tebak_kata_db.sql
+3. Atur koneksi database di Backend/db.php
 4. Jalankan project di localhost (XAMPP/Laragon):
    ```bash
-   http://localhost/TebakKata/index.php
+   http://localhost/Game-Tebak-Kata/index.php
